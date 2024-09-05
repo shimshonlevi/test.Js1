@@ -311,6 +311,5 @@ firearm = {type: "M16 Rifle", quantity: 500, status: "Operational"}
 console.log(Mission4(militaryUnit,firearm).equipment.firearms)
 
 
-//Build a function that returns the length of all trainings together
-//Input: An object containing all the data on the unit
-//Output: a string containing the total number of weeks in training
+
+module.exports = { Mission1, Mission2, Mission4 }
